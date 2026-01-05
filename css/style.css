@@ -1,61 +1,87 @@
 .container {
-    background: #666;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    max-width: 1280px;
-    margin: 0 auto;
-    margin-top: 121px;
+  background: #666;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 121px;
 }
-.card{
-    border: 1px solid black;
-    height: 100%;
-    width: 300px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    background: #ddd;
-    overflow: hidden;
-
+.card {
+  border: 1px solid black;
+  height: 100%;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background: #ddd;
+  overflow: hidden;
 }
-.img{
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
+.img {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
 }
-.card .img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: .3s linear;
-    transform: scale(1.05);
-
+.card .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.3s linear;
+  transform: scale(1.05);
 }
 
-.card .img img:hover{
+.card .img img:hover {
   transform: scale(1.2) rotate(10deg);
 }
-.title a{
-    font-weight: 500px;
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
+.title a {
+  font-weight: 500px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
-.btn-submit{
-    height: 40px;
-    padding: 0 30px;
-    transition: 0.3s linear;
+.btn-submit {
+  height: 40px;
+  padding: 0 30px;
+  transition: 0.3s linear;
 }
-.submit-btn{
-    display: flex;
-    align-items: center;
-    justify-content: end;
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
-.btn-submit:hover{
+.btn-submit:hover {
   background: blanchedalmond;
   border: 1px dashed red;
 }
 
+/* card2 */
+.card2 {
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card2 .card-img {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card2 .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.3s linear;
+  transform: scale(1.05);
+}
+
+.card2 .card-img img:hover {
+  transform: scale(1.2) rotate(10deg);
+}
